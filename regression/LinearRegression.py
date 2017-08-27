@@ -12,7 +12,7 @@ style.use('ggplot')
 
 def generateData():
     #Add your Quandl API KEY here
-    quandl.ApiConfig.api_key = 'fgsgd8UNAGn3Vns1TeJZ'
+    quandl.ApiConfig.api_key = 'Your Key Here'
     df = quandl.get('WIKI/TSLA')
     print("raw data from Quandl")
     print(df.head())
